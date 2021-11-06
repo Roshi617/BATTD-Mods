@@ -20,7 +20,7 @@ namespace Main
 		public static double cashIncrease(Simulation __instance)
 		{
 			Simulation.CashIncreaseReason test = Simulation.CashIncreaseReason.RoundBonus;
-			double increaseCashAmount = 1000.0; //change this to your liking
+			double increaseCashAmount = 10000.0; //change this to your liking
 			return __instance.IncreaseCash(increaseCashAmount, test);
 			
 		}
